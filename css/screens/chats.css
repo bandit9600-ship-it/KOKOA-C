@@ -1,0 +1,4 @@
+.chats-screen .user-component { margin-bottom:24px; }
+.kakao-avatar { width:96px; height:96px; border-radius:35%; background:var(--yellow); display:flex; justify-content:center; align-items:center; margin-right:24px; color:#3b1f1f; font-weight:800; position:relative; }
+.kakao-avatar::after { content:""; position:absolute; left:32px; bottom:23px; border-top:12px solid #3b1f1f; border-right:12px solid transparent; transform:rotate(-20deg); }
+.kakao-avatar span { background:#3b1f1f; color:var(--yellow); padding:8px; border-radius:50%; z-index:1; font-size:18px; }

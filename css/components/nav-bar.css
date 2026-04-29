@@ -1,0 +1,6 @@
+.nav { position:fixed; bottom:0; width:100%; background:#f9f9fa; border-top: var(--main-border); padding: 22px 48px 20px; }
+.nav__list { display:flex; justify-content:space-between; align-items:center; }
+.nav__link { position:relative; font-size:31px; color:#20262d; }
+.nav__notification { position:absolute; left:18px; bottom:17px; width:30px; height:30px; }
+.nav__dot { position:absolute; right:-7px; top:-7px; }
+.nav__active { font-weight:800; }

@@ -1,0 +1,4 @@
+html, body, div, span, h1, h2, h3, h4, p, a, img, i, ul, li, form, label, header, nav, main, section { margin:0; padding:0; border:0; font:inherit; vertical-align:baseline; }
+body { line-height:1; }
+ul { list-style:none; }
+button, input { font: inherit; border: none; background: none; }

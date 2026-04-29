@@ -1,0 +1,9 @@
+.friends-display-link { display:block; text-align:center; background:#fafafa; padding:18px 0; font-size:24px; color:#333; }
+.friends-display-link i { color:#d5d5d5; margin:0 8px; }
+.friends-screen { padding-top:18px; }
+.friends-screen__channel { margin-top:28px; border-top:var(--main-border); padding-top:18px; }
+.friends-screen__channel-header { display:flex; justify-content:space-between; color:var(--gray); margin-bottom:28px; font-size:22px; }
+.channel-count { color:#999; font-size:24px; display:flex; gap:12px; align-items:center; }
+.channel-icon { width:80px; height:80px; border-radius:50%; background:var(--yellow); display:flex; justify-content:center; align-items:center; margin-right:24px; font-weight:800; font-size:26px; position:relative; color:#111; }
+.channel-icon::after { content:""; position:absolute; left:28px; bottom:14px; border-top:12px solid #111; border-right:12px solid transparent; transform:rotate(-20deg); }
+.channel-icon span { background:#111; color:#ffe500; padding:7px 5px; border-radius:50%; z-index:1; }

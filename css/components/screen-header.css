@@ -1,0 +1,9 @@
+.screen-header { display:flex; justify-content:space-between; align-items:center; padding: 44px var(--horizontal-space) 26px; }
+.screen-header__title { font-size:44px; font-weight:800; }
+.screen-header__icons { display:flex; align-items:center; gap:28px; font-size:32px; }
+.screen-header__icons span { position:relative; }
+.screen-header__icons .dot { position:absolute; right:-7px; top:-7px; }
+.alt-header { display:flex; justify-content:center; align-items:center; padding: 34px var(--horizontal-space) 22px; }
+.alt-header__column { width:33%; font-size:38px; }
+.alt-header__column:nth-child(2){ text-align:center; font-size:34px; font-weight:800; }
+.alt-header__column:last-child{ text-align:right; }
